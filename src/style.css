@@ -1,6 +1,9 @@
-body{
-    background-color: white;
+
+
+.card{
     display: flex;
-  
-    
+    border: solid 3px green;
+    width:400px;
+    display: grid;
+    align-self: center;
 }

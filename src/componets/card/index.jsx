@@ -16,9 +16,9 @@ function Filho({ texto, descrption, img }) {
 export default function app() {
   return (
 
-    <div>
+    <div class='card'>
       <h1>olá, mundo </h1>
-      <Filho texto="óla"
+      <Filho texto="digimon"
       descrption='descrição'
       img='https://img-c.udemycdn.com/course/750x422/1221442_4630.jpg'
       />
