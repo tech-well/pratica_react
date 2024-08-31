@@ -1,13 +1,9 @@
-import Card from './componets/card'
-import img from '../../well/src/assets/imagem/senai.jpg'
-
+import Brand from '../src/componets/Brand/index'
 
 export default function App(){
+ return <div className="app_container">
+     <Brand/>
 
-  return <Card
-  src='img'
-  title="olá cards"
-  description='vchjfdmvmdfvmd'
-  />
-
+     
+  </div>
 }
