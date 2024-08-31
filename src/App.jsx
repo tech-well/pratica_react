@@ -1,9 +1,8 @@
-import Brand from '../src/componets/Brand/index'
+import Square from './componets/square/index'
+
 
 export default function App(){
- return <div className="app_container">
-     <Brand/>
-
-     
-  </div>
+  return (
+    <Square/>
+  )
 }
